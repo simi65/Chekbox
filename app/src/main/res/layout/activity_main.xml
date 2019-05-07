@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Pesanan Anda.."
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+    <CheckBox
+        android:id="@+id/nasi_goreng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nasi goreng"
+        android:textSize="18sp"/>
+
+    <CheckBox
+        android:id="@+id/mie_goreng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mie goreng"
+        android:textSize="18sp"/>
+
+    <CheckBox
+        android:id="@+id/bubur_ayam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bubur ayam"
+        android:textSize="18sp"/>
+
+    <CheckBox
+        android:id="@+id/bakso_urat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bakso urat"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/button_pesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesan"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesanan anda adalah..."
+        android:textSize="18sp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/hasil_pesanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="#000"/>
+</LinearLayout>
